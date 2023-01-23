@@ -1,0 +1,15 @@
+.menu a {
+  margin-right: 5ch;
+  float: right;
+  margin-top: 10px;
+}
+
+#sitename {
+    float: left;
+    margin-top:0;
+
+}
+
+.clearfix {
+    clear: both;
+}

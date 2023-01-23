@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import "./About.css"
+import NavBar from './NavBar';
+
 
 const About = () => {
-    const [myPokemon, updateMyPokemon] = useState ("bulbasaur") 
-
-useEffect(()=>{
-    setTimeout(()=>{
-        updateMyPokemon("pickachu")
-    },5000)
-})
+    
 
   return (
-    <section>
-     <details>
-        <summary>my favorite pokemon</summary>
-        <p>{myPokemon}</p>
-     </details>
-    </section>
+    <div>
+    <NavBar></NavBar>
+    <main>
+   <h2>About Me</h2>
+   <p>Lorem fsdf s fsfsfs fsdfs fs  fsf sfsdf fsf sd</p>
+    </main>
+    </div>
   );
 };
 

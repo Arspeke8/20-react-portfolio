@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './Home.css';
-import MyMenu from './components/MyMenu';
+// import MyMenu from './components/MyMenu';
 import NavBar from './components/NavBar';
 
 function Home() {
