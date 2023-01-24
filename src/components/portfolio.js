@@ -1,32 +1,36 @@
 import React from 'react';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 function Portfolio() {
   return (
     <div>
+      <NavBar></NavBar>
       <h1>Portfolio</h1>
       <p>
         Here are some examples of my work:
       </p>
       <ul>
         <li>
-          <a href="https://example1.com" target="_blank">Example 1</a>
+          <a href="https://proj2-restaurant-mgmt-sys.herokuapp.com/" target="_blank">Burger's and Fries - Project Two </a>
         </li>
         <li>
-          <a href="https://example2.com" target="_blank">Example 2</a>
+          <a href="https://arspeke8.github.io/SaltySnails/" target="_blank">Salty Snails - Project One</a>
         </li>
         <li>
-          <a href="https://example3.com" target="_blank">Example 3</a>
+          <a href="https://arspeke8.github.io/HTML-GIT-CSS-Challenge/" target="_blank">Refactor Code</a>
         </li>
         <li>
-          <a href="https://example4.com" target="_blank">Example 4</a>
+          <a href="https://arspeke8.github.io/Challenge-3-password-generator/" target="_blank">JavaScript Password Generator</a>
         </li>
         <li>
-          <a href="https://example5.com" target="_blank">Example 5</a>
+          <a href="https://arspeke8.github.io/Challenge-6-Weather-Dashboard/" target="_blank">Weather App</a>
         </li>
         <li>
-          <a href="https://example6.com" target="_blank">Example 6</a>
+          <a href="https://arspeke8.github.io/challenge-5-work-day-scheduler/" target="_blank">Work Day Scheduler</a>
         </li>
       </ul>
+      <Footer></Footer>
     </div>
   );
 }
