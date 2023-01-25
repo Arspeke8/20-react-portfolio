@@ -2,6 +2,8 @@
   margin-right: 5ch;
   float: right;
   margin-top: 10px;
+  font-size: 2em;
+  color: black
 }
 
 #sitename {
@@ -12,4 +14,9 @@
 
 .clearfix {
     clear: both;
+}
+
+menu {
+  font-size: large;
+
 }

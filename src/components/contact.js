@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from './ContactForm';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import './contact.css';
 
 function Contact() {
   return (

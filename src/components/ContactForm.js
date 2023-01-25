@@ -20,17 +20,17 @@ const ContactForm = () => {
       {({ isSubmitting }) => (
         <Form>
           <div className="form-group">
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name"></label>
             <Field name="name" type="text" className="form-control" placeholder="Name" />
             <ErrorMessage name="name" component="div" className="error-message" />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email"></label>
             <Field name="email" type="email" className="form-control" placeholder="Email" />
             <ErrorMessage name="email" component="div" className="error-message" />
           </div>
           <div className="form-group">
-            <label htmlFor="message">Message:</label>
+            <label htmlFor="message"></label>
             <Field name="message" component="textarea" className="form-control" placeholder="Message" />
             <ErrorMessage name="message" component="div" className="error-message" />
           </div>
