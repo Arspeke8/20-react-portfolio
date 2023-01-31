@@ -8,10 +8,11 @@
 
 # Learned how to use React to create a portfolio
 
-# ![React-Portfolio](./Develop/Assets/screenshot.png)
+# ![React-Portfolio](./src/assets/arspeke.png)
 
 # Ryan Dong
 
 # Ryandong7@gmail.com
 
 # Project Link: https://arspeke8.github.io/20-react-portfolio/
+
