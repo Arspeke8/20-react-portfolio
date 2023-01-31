@@ -12,25 +12,26 @@ import {
 } from "react-router-dom";
 
 
+
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/20-react-portfolio/",
     element: <Home/>,
   },
   {
-    path:"/about",
+    path:"/20-react-portfolio/about",
     element:<About/>
   },
   {
-    path:"/portfolio",
+    path:"/20-react-portfolio/portfolio",
     element:<Portfolio/>
   },
   {
-    path:"/contact",
+    path:"/20-react-portfolio/contact",
     element:<Contact/>
   },
   {
-    path:"/resume",
+    path:"/20-react-portfolio/resume",
     element:<Resume/>
   },
 ]
